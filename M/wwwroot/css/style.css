@@ -2370,3 +2370,7 @@ body.page-id-3090 .tour_recently_view
 }
 
 .wp-caption img {width: 100%;}
+
+#logo_wrapper {
+    display: flex!important;
+}
