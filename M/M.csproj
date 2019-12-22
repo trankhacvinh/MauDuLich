@@ -13,5 +13,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\css\autoAdsMaxLead-widget.min..cs" />
+    <Content Remove="Views\Home\EmptyClassd.cshtml" />
   </ItemGroup>
 </Project>
