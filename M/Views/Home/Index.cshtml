@@ -1,21 +1,21 @@
 ﻿ <div class="ppb_wrapper  ">
-            <div class="one withsmallpadding ppb_tour_search_background parallax withbg " style="text-align:center;height:800px;background-image:url(upload/pexels-photo-225630.jpeg);background-position: center center;color:#ffffff;">
+            <div class="one withsmallpadding ppb_tour_search_background parallax withbg " style="text-align:center;height:800px;background-image:url(upload/pexels-photo-225630.jpg);background-position: center center;color:#ffffff;">
                 <div class="overlay_background" style="background:#000000;background:rgb(0,0,0,0);background:rgba(0,0,0,0);"></div>
                 <div class="center_wrapper">
                     <div class="inner_content">
                         <div class="standard_wrapper">
-                            <h2 class="ppb_title" style="color:#ffffff;">Where do you want to go?</h2>
-                            <div class="page_tagline" style="color:#ffffff;">Trips, experiences, and places. All in one service.</div>
+                            <h2 class="ppb_title" style="color:#ffffff;">Tìm nơi bạn muốn đến!</h2>
+                            <div class="page_tagline" style="color:#ffffff;">Máy bay, nghỉ ngơi, ăn uống tất cả trong một hành trình.</div>
                             <form id="tour_search_form" class="tour_search_form" method="get" action="#">
                                 <div class="tour_search_wrapper">
                                     <div class="one_fourth themeborder">
-                                        <input id="keyword" name="keyword" type="text" autocomplete="off" placeholder="Destination, city" />
+                                        <input id="keyword" name="keyword" type="text" autocomplete="off" placeholder="Quốc gia, thành phố" />
                                         <span class="ti-search"></span>
                                         <div id="autocomplete" class="autocomplete" data-mousedown="false"></div>
                                     </div>
                                     <div class="one_fourth themeborder">
                                         <select id="month" name="month">
-                                            <option value="">Any Month</option>
+                                            <option value="">Chọn Tháng</option>
                                             <option value="january">January</option>
                                             <option value="february">February</option>
                                             <option value="march">March</option>
@@ -33,12 +33,10 @@
                                     </div>
                                     <div class="one_fourth themeborder">
                                         <select id="sort_by" name="sort_by">
-                                            <option value="date">Sort By Date</option>
-                                            <option value="price_low">Price Low to High</option>
-                                            <option value="price_high">Price High to Low</option>
-                                            <option value="name">Sort By Name</option>
-                                            <option value="popular">Sort By Popularity</option>
-                                            <option value="review">Sort By Review Score</option>
+                                            <option value="date">Sắp xếp theo ngày</option>
+                                            <option value="price_low">Thấp đến cao</option>
+                                            <option value="price_high">Giá cao xuống thấp</option>
+                                            <option value="name">Tìm theo tên</option>
                                         </select>
                                         <span class="ti-exchange-vertical"></span>
                                     </div>
@@ -93,8 +91,8 @@
                 <div class="page_content_wrapper">
                     <div class="inner">
                         <div style="margin:auto;width:100%">
-                            <h2 class="ppb_title" style="">Popular Destinations</h2>
-                            <div class="page_tagline" style="">World&#039;s best tourist destinations</div>
+                            <h2 class="ppb_title" style="">Điểm đến yêu thích</h2>
+                            <div class="page_tagline" style="">Được đón nhận bởi du khách năm qua</div>
                         </div>
                     </div>
                 </div>
@@ -109,7 +107,7 @@
                                 <a class="tour_image" href="/sanpham/chitiet"></a>
                                 <div class="portfolio_info_wrapper">
                                     <div class="portfolio_info_content">
-                                        <h3>Tokyo</h3></div>
+                                        <h3>Nhậ Bản</h3></div>
                                 </div>
                             </div>
                         </div>
@@ -118,7 +116,7 @@
                                 <a class="tour_image" href="#"></a>
                                 <div class="portfolio_info_wrapper">
                                     <div class="portfolio_info_content">
-                                        <h3>Seoul</h3></div>
+                                        <h3>Hàn Quốc</h3></div>
                                 </div>
                             </div>
                         </div>
@@ -127,7 +125,7 @@
                                 <a class="tour_image" href="#"></a>
                                 <div class="portfolio_info_wrapper">
                                     <div class="portfolio_info_content">
-                                        <h3>Paris</h3></div>
+                                        <h3>Pháp</h3></div>
                                 </div>
                             </div>
                         </div>
@@ -136,7 +134,7 @@
                                 <a class="tour_image" href="#"></a>
                                 <div class="portfolio_info_wrapper">
                                     <div class="portfolio_info_content">
-                                        <h3>London</h3></div>
+                                        <h3>Vương Quốc Anh</h3></div>
                                 </div>
                             </div>
                         </div>
@@ -144,13 +142,16 @@
                 </div>
             </div>
         </div>
+        
+
+        <!-- tour trong nưoc -->
         <div class="one withsmallpadding ppb_header " style="text-align:center;padding:0px 0 0px 0;margin-top:10px;margin-bottom:50px;">
             <div class="standard_wrapper">
                 <div class="page_content_wrapper">
                     <div class="inner">
                         <div style="margin:auto;width:100%">
-                            <h2 class="ppb_title" style="">Best Value Trips</h2>
-                            <div class="page_tagline" style="">Best offers trips from us</div>
+                            <a href="/danhsachtour"><h2 class="ppb_title" style="">Tour Trong Nước</h2></a>
+                            <div class="page_tagline" style="">Giá tốt nhất từ chúng tôi</div>
                         </div>
                     </div>
                 </div>
@@ -163,13 +164,13 @@
                         <div class="element grid classic3_cols animated1">
                             <div class="one_third gallery3 classic static filterable portfolio_type themeborder">
                                 <a class="tour_image" href="#">
-                                    <img src="upload/pexels-photo-211051-700x466.jpeg" alt="French Autumn" />
+                                    <img src="~/upload/pexels-photo-211051-700x466.jpeg" alt="French Autumn" />
                                     <div class="tour_price ">$5,000</div>
                                 </a>
                                 <div class="portfolio_info_wrapper">
-                                    <a class="tour_link" href="#"><h4>French Autumn</h4></a>
+                                    <a class="tour_link" href="#"><h4>Mùa Thu Nước Pháp</h4></a>
                                     <div class="tour_excerpt">
-                                        <p>City Tours, Urban</p>
+                                        <p>Thánh phố Paris</p>
                                     </div>
                                     <div class="tour_attribute_wrapper">
                                         <div class="tour_attribute_rating">
@@ -194,13 +195,13 @@
                         <div class="element grid classic3_cols animated2">
                             <div class="one_third gallery3 classic static filterable portfolio_type themeborder">
                                 <a class="tour_image" href="#">
-                                    <img src="upload/pexels-photo-197657-700x466.jpeg" alt="Grand Switzerland" />
+                                    <img src="~/upload/pexels-photo-197657-700x466.jpeg" alt="Grand Switzerland" />
                                     <div class="tour_price ">$6,000</div>
                                 </a>
                                 <div class="portfolio_info_wrapper">
-                                    <a class="tour_link" href="#"><h4>Grand Switzerland</h4></a>
+                                    <a class="tour_link" href="#"><h4>Thành Phố Đài Bắc</h4></a>
                                     <div class="tour_excerpt">
-                                        <p>Shopping, Mountain, Snow & Ice</p>
+                                        <p>Mua sắm, leo nuối, tuyết</p>
                                     </div>
                                     <div class="tour_attribute_wrapper">
                                         <div class="tour_attribute_rating">
@@ -225,16 +226,70 @@
                         <div class="element grid classic3_cols animated3">
                             <div class="one_third gallery3 classic static filterable portfolio_type themeborder">
                                 <a class="tour_image" href="#">
-                                    <img src="upload/pexels-photo-96420-700x466.jpeg" alt="Discover Japan" />
+                                    <img src="~/upload/pexels-photo-96420-700x466.jpeg" alt="Discover Japan" />
                                     <div class="tour_label">Sale</div>
                                     <div class="tour_price has_discount"><span class="normal_price">
                                 $3,000
                             </span>$2,500</div>
                                 </a>
                                 <div class="portfolio_info_wrapper">
-                                    <a class="tour_link" href="#"><h4>Discover Japan</h4></a>
+                                    <a class="tour_link" href="#"><h4>Nhật Bản</h4></a>
                                     <div class="tour_excerpt">
-                                        <p>City Tours, Iconic</p>
+                                        <p>Tokio, Núi Phú Sĩ, Chùa Vàng</p>
+                                    </div>
+                                    <div class="tour_attribute_wrapper">
+                                        <div class="tour_attribute_rating">
+                                            <div class="br-theme-fontawesome-stars-o">
+                                                <div class="br-widget">
+                                                    <a href="javascript:;" class="br-selected"></a>
+                                                    <a href="javascript:;" class="br-selected"></a>
+                                                    <a href="javascript:;" class="br-selected"></a>
+                                                    <a href="javascript:;" class="br-selected"></a>
+                                                    <a href="javascript:;"></a>
+                                                </div>
+                                            </div>
+                                            <div class="tour_attribute_rating_count">4&nbsp;reviews</div>
+                                        </div>
+                                        <div class="tour_attribute_days">
+                                            <span class="ti-time"></span>5 ngày</div>
+                                    </div>
+                                    <br class="clear" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- het tour trong nuoc -->
+
+        <!-- tour quoc te -->
+        <div class="one withsmallpadding ppb_header " style="text-align:center;padding:0px 0 0px 0;margin-top:10px;margin-bottom:50px;">
+            <div class="standard_wrapper">
+                <div class="page_content_wrapper">
+                    <div class="inner">
+                        <div style="margin:auto;width:100%">
+                            <a href="/danhsachtour"><h2 class="ppb_title" style="">Tour Quốc Tế</h2></a>
+                            <div class="page_tagline" style="">Giá tốt nhất từ chúng tôi</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ppb_tour_classic one nopadding " style="margin-bottom:50px;">
+            <div class="page_content_wrapper page_main_content sidebar_content full_width fixed_column">
+                <div class="standard_wrapper">
+                    <div id="1567589134228149190" class="portfolio_filter_wrapper gallery classic three_cols" data-columns="3">
+                        <div class="element grid classic3_cols animated1">
+                            <div class="one_third gallery3 classic static filterable portfolio_type themeborder">
+                                <a class="tour_image" href="#">
+                                    <img src="~/upload/pexels-photo-26689-700x466.jpg" alt="French Autumn" />
+                                    <div class="tour_price ">$5,000</div>
+                                </a>
+                                <div class="portfolio_info_wrapper">
+                                    <a class="tour_link" href="#"><h4>Mùa Thu Nước Pháp</h4></a>
+                                    <div class="tour_excerpt">
+                                        <p>Thánh phố Paris</p>
                                     </div>
                                     <div class="tour_attribute_wrapper">
                                         <div class="tour_attribute_rating">
@@ -256,17 +311,85 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="element grid classic3_cols animated2">
+                            <div class="one_third gallery3 classic static filterable portfolio_type themeborder">
+                                <a class="tour_image" href="#">
+                                    <img src="~/upload/pexels-photo-131729-700x466.jpeg" alt="Grand Switzerland" />
+                                    <div class="tour_price ">$6,000</div>
+                                </a>
+                                <div class="portfolio_info_wrapper">
+                                    <a class="tour_link" href="#"><h4>Thành Phố Đài Bắc</h4></a>
+                                    <div class="tour_excerpt">
+                                        <p>Mua sắm, leo nuối, tuyết</p>
+                                    </div>
+                                    <div class="tour_attribute_wrapper">
+                                        <div class="tour_attribute_rating">
+                                            <div class="br-theme-fontawesome-stars-o">
+                                                <div class="br-widget">
+                                                    <a href="javascript:;" class="br-selected"></a>
+                                                    <a href="javascript:;" class="br-selected"></a>
+                                                    <a href="javascript:;" class="br-selected"></a>
+                                                    <a href="javascript:;" class="br-selected"></a>
+                                                    <a href="javascript:;"></a>
+                                                </div>
+                                            </div>
+                                            <div class="tour_attribute_rating_count">4&nbsp;reviews</div>
+                                        </div>
+                                        <div class="tour_attribute_days">
+                                            <span class="ti-time"></span>6&nbsp;days</div>
+                                    </div>
+                                    <br class="clear" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="element grid classic3_cols animated3">
+                            <div class="one_third gallery3 classic static filterable portfolio_type themeborder">
+                                <a class="tour_image" href="#">
+                                    <img src="~/upload/pexels-photo-225630-700x466.jpeg" alt="Discover Japan" />
+                                    <div class="tour_label">Sale</div>
+                                    <div class="tour_price has_discount"><span class="normal_price">
+                                $3,000
+                            </span>$2,500</div>
+                                </a>
+                                <div class="portfolio_info_wrapper">
+                                    <a class="tour_link" href="#"><h4>Nhật Bản</h4></a>
+                                    <div class="tour_excerpt">
+                                        <p>Tokio, Núi Phú Sĩ, Chùa Vàng</p>
+                                    </div>
+                                    <div class="tour_attribute_wrapper">
+                                        <div class="tour_attribute_rating">
+                                            <div class="br-theme-fontawesome-stars-o">
+                                                <div class="br-widget">
+                                                    <a href="javascript:;" class="br-selected"></a>
+                                                    <a href="javascript:;" class="br-selected"></a>
+                                                    <a href="javascript:;" class="br-selected"></a>
+                                                    <a href="javascript:;" class="br-selected"></a>
+                                                    <a href="javascript:;"></a>
+                                                </div>
+                                            </div>
+                                            <div class="tour_attribute_rating_count">4&nbsp;reviews</div>
+                                        </div>
+                                        <div class="tour_attribute_days">
+                                            <span class="ti-time"></span>5 ngày</div>
+                                    </div>
+                                    <br class="clear" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- het tour quoc te-->
+
+
         <div class="one withsmallpadding ppb_header " style="text-align:center;padding:0px 0 0px 0;margin-bottom:40px;">
             <div class="standard_wrapper">
                 <div class="page_content_wrapper">
                     <div class="inner">
                         <div style="margin:auto;width:100%">
-                            <h2 class="ppb_title" style="">Why Choose Us</h2>
-                            <div class="page_tagline" style="">Here are reasons you should plan trip with us</div>
+                            <h2 class="ppb_title" style="">Hãy đồng hành cùng chúng tôi vì</h2>
+                            <div class="page_tagline" style="">Lý do bạn nên đồng hành cùng chúng tôi</div>
                         </div>
                     </div>
                 </div>
@@ -279,7 +402,7 @@
                         <div class="inner">
                             <div style="margin:auto;width:100%">
                                 <p><img class="alignnone wp-image-3106 size-medium" src="upload/Map-Marker-300x300.png" width="150" height="150" alt="" /></p>
-                                <h4 class="p1"><span class="s1"><b>Handpicked Hotels</b></span></h4>
+                                <h4 class="p1"><span class="s1"><b>Điểm đến hấp dẫn</b></span></h4>
                                 <p>Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</p>
                             </div>
                         </div>
@@ -294,7 +417,7 @@
                         <div class="inner">
                             <div style="margin:auto;width:100%">
                                 <p><img class="alignnone wp-image-3107 size-medium" src="upload/Worldwide-Location-300x300.png" width="150" height="150" alt="" /></p>
-                                <h4 class="p1"><span class="s1"><b>World Class Service</b></span></h4>
+                                <h4 class="p1"><span class="s1"><b>Dịch vụ tốt nhất</b></span></h4>
                                 <p>Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</p>
                             </div>
                         </div>
@@ -309,7 +432,7 @@
                         <div class="inner">
                             <div style="margin:auto;width:100%">
                                 <p><img class="alignnone wp-image-3108 size-medium" src="upload/Hot-Air-Balloon-300x300.png" width="140" height="140" alt="" /></p>
-                                <h4 class="p1"><span class="s1"><b>Best Price Guarantee</b></span></h4>
+                                <h4 class="p1"><span class="s1"><b>Giá Tốt Nhất</b></span></h4>
                                 <p>Lorem ipsum dolor sit amet, consect adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa</p>
                             </div>
                         </div>
@@ -317,14 +440,28 @@
                 </div>
             </div>
         </div>
+        <!-- Danh Mục -->
+        <div class="one withsmallpadding ppb_header " style="text-align:center;padding:0px 0 0px 0;margin-top:10px;margin-bottom:50px;">
+            <div class="standard_wrapper">
+                <div class="page_content_wrapper">
+                    <div class="inner">
+                        <div style="margin:auto;width:100%">
+                            <a href="/danhsachtour"><h2 class="ppb_title" style="">Danh Mục Tour</h2></a>
+                            <div class="page_tagline" style="">Giá tốt nhất từ chúng tôi</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="parallax" data-jarallax-video="https://www.youtube.com/watch?v=JPe2mwq96cw" style="height:40vh; "></div>
         <div class="one withsmallpadding ppb_header " style="text-align:center;padding:0px 0 0px 0;margin-top:70px;margin-bottom:50px;">
             <div class="standard_wrapper">
                 <div class="page_content_wrapper">
                     <div class="inner">
                         <div style="margin:auto;width:100%">
-                            <h2 class="ppb_title" style="">Articles &amp; Tips</h2>
-                            <div class="page_tagline" style="">Explore some of the best tips from around the world</div>
+                            <h2 class="ppb_title" style="">Khám Phá Thế Giới</h2>
+                            <div class="page_tagline" style="">Hành trình đến những đất nước xinh đẹp, khám phá văn hóa.</div>
                         </div>
                     </div>
                 </div>
@@ -339,7 +476,7 @@
                                 <div id="post-81" class="post type-post hentry status-publish ">
                                     <div class="post_wrapper grid_layout">
                                         <div class="post_img small static">
-                                            <a href="#">
+                                            <a href="/news/newsdetail">
                                                 <img src="upload/photo-1469920783271-4ee08a94d42d-960x636.jpg" alt="Memorial Day to Someone Told Me to Travel" class="" />
                                             </a>
                                         </div>
@@ -350,11 +487,11 @@
                                                         <a href="#" title="Memorial Day to Someone Told Me to Travel">December 10, 2016</a>
                                                     </span>
                                                 </div>
-                                                <h6><a href="#" title="Memorial Day to Someone Told Me to Travel">Memorial Day to Someone Told Me to Travel</a></h6>
+                                                <h6><a href="/news/newsdetail" title="Memorial Day to Someone Told Me to Travel">Đến đài loan mua gì, ăn gì, đi mùa nào dành cho khách đi lần đầu</a></h6>
                                             </div>
                                             <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache...
                                                 <div class="post_button_wrapper">
-                                                    <a class="readmore" href="#">Read More<span class="ti-angle-right"></span></a>
+                                                    <a class="readmore" href="/news/newsdetail">Xem thêm<span class="ti-angle-right"></span></a>
                                                 </div>
                                         </div>
                                     </div>
@@ -362,7 +499,7 @@
                                 <div id="post-76" class="post type-post hentry status-publish ">
                                     <div class="post_wrapper grid_layout">
                                         <div class="post_img small static">
-                                            <a href="#">
+                                            <a href="/news/newsdetail">
                                                 <img src="upload/pexels-photo-212388-960x636.jpeg" alt="7 Tips For Nomads On A Budget Trips" class="" />
                                             </a>
                                         </div>
@@ -370,14 +507,14 @@
                                             <div class="post_header grid">
                                                 <div class="post_detail single_post">
                                                     <span class="post_info_date">
-                                                        <a href="#" title="7 Tips For Nomads On A Budget Trips">December 10, 2016</a>
+                                                        <a href="/news/newsdetail" title="7 Tips For Nomads On A Budget Trips">December 10, 2016</a>
                                                     </span>
                                                 </div>
-                                                <h6><a href="#" title="7 Tips For Nomads On A Budget Trips">7 Tips For Nomads On A Budget Trips</a></h6>
+                                                <h6><a href="/news/newsdetail" title="7 Tips For Nomads On A Budget Trips">Tham quan Hàn quốc với hành trình trượt tuyết tham quan thành phố Seoul</a></h6>
                                             </div>
                                             <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache...
                                                 <div class="post_button_wrapper">
-                                                    <a class="readmore" href="#">Read More<span class="ti-angle-right"></span></a>
+                                                    <a class="readmore" href="/news/newsdetail">Xem thêm<span class="ti-angle-right"></span></a>
                                                 </div>
                                         </div>
                                     </div>
@@ -385,7 +522,7 @@
                                 <div id="post-72" class="post type-post hentry status-publish last">
                                     <div class="post_wrapper grid_layout">
                                         <div class="post_img small static">
-                                            <a href="#">
+                                            <a href="/news/newsdetail">
                                                 <img src="upload/pexels-photo-24484-960x636.jpg" alt="Taking A Travel Blog Victory Lap" class="" />
                                             </a>
                                         </div>
@@ -393,14 +530,14 @@
                                             <div class="post_header grid">
                                                 <div class="post_detail single_post">
                                                     <span class="post_info_date">
-                                                        <a href="#" title="Taking A Travel Blog Victory Lap">December 10, 2016</a>
+                                                        <a href="/news/newsdetail" title="Taking A Travel Blog Victory Lap">December 10, 2016</a>
                                                     </span>
                                                 </div>
-                                                <h6><a href="#" title="Taking A Travel Blog Victory Lap">Taking A Travel Blog Victory Lap</a></h6>
+                                                <h6><a href="#" title="Taking A Travel Blog Victory Lap">Kinh nghiệm đi du lịch Singapore mùa hè</a></h6>
                                             </div>
                                             <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache...
                                                 <div class="post_button_wrapper">
-                                                    <a class="readmore" href="#">Read More<span class="ti-angle-right"></span></a>
+                                                    <a class="readmore" href="/news/newsdetail">Xem thêm<span class="ti-angle-right"></span></a>
                                                 </div>
                                         </div>
                                     </div>

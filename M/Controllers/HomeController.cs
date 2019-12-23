@@ -46,6 +46,19 @@ namespace M.Controllers
             return View("chitiettour");
         }
 
+        [Route("/listnews")]
+        public IActionResult Listnews(){
+            return View("listnews");
+        }
+        [Route("/news/newsdetail")]
+        public IActionResult Newsdetail(){
+            return View("newsdetail");
+        }
+        [Route("/thuvienhinh")]
+        public IActionResult Thuvienhinh(){
+            return View("thuvienhinh");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
