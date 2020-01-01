@@ -111,20 +111,20 @@ html[data-menu=leftalign_search] #logo_right_button
 	color: #fff;
 }
 
-#wrapper.transparent .top_bar:not(.scroll) #menu_search .menu_search_wrapper input::-webkit-input-placeholder 
+#wrapper.transparent .top_bar:not(.scroll) #menu_search .menu_search_wrapper input::-webkit-input-placeholder
 {
   color: #fff;
 }
-#wrapper.transparent .top_bar:not(.scroll) #menu_search .menu_search_wrapper input::-moz-placeholder 
-{ 
+#wrapper.transparent .top_bar:not(.scroll) #menu_search .menu_search_wrapper input::-moz-placeholder
+{
   color: #fff;
 }
-#wrapper.transparent .top_bar:not(.scroll) #menu_search .menu_search_wrapper input:-ms-input-placeholder 
-{ 
+#wrapper.transparent .top_bar:not(.scroll) #menu_search .menu_search_wrapper input:-ms-input-placeholder
+{
   color: #fff;
 }
-#wrapper.transparent .top_bar:not(.scroll) #menu_search .menu_search_wrapper input:-moz-placeholder 
-{ 
+#wrapper.transparent .top_bar:not(.scroll) #menu_search .menu_search_wrapper input:-moz-placeholder
+{
   color: #fff;
 }
 
@@ -136,9 +136,9 @@ html[data-menu=leftalign_search] #logo_right_button
 	margin-top: 0;
 }
 
-/* 
+/*
 #Tablet (Portrait)
-================================================== 
+==================================================
 */
 
 @media only screen and (min-width: 768px) and (max-width: 960px) {
@@ -146,9 +146,9 @@ html[data-menu=leftalign_search] #logo_right_button
 	html[data-menu=leftalign] .logo_container, html[data-menu=leftalign_search] .logo_container { margin-top: 0px; }
 }
 
-/*  
+/*
 #Mobile (Portrait)
-================================================== 
+==================================================
 */
 
 @media only screen and (max-width: 767px) {
@@ -158,13 +158,13 @@ html[data-menu=leftalign_search] #logo_right_button
 		height: 0;
 		padding: 0;
 	}
-	
+
 	html[data-menu=leftalign] #nav_wrapper, html[data-menu=leftalign] #menu_wrapper,
 	html[data-menu=leftalign_search] #nav_wrapper, html[data-menu=leftalign_search] #menu_wrapper
 	{
 		display: block;
 	}
-	
+
 	html[data-menu=leftalign] .top_bar, html[data-menu=leftalign_search] .top_bar
 	{
 		padding-bottom: 15px;
