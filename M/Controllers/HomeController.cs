@@ -58,6 +58,10 @@ namespace M.Controllers
         public IActionResult Thuvienhinh(){
             return View("thuvienhinh");
         }
+        [Route("/gioithieu")]
+        public IActionResult Gioithieu(){
+            return View("gioithieu");
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
