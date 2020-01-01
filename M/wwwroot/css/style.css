@@ -1288,7 +1288,7 @@ body.tg_boxed {
 #menu_wrapper .nav ul li a,
 #menu_wrapper div .nav li > a,
 .header_cart_wrapper i {
-    font-size: 13px;
+    font-size: 15px;
 }
 
 #menu_wrapper .nav ul li a,
@@ -1893,8 +1893,8 @@ p.price ins span.amount,
 {
     position: fixed;
     animation-name: slideDown;
-    -webkit-animation-name: slideDown;  
-    animation-duration: 0.5s;   
+    -webkit-animation-name: slideDown;
+    animation-duration: 0.5s;
     -webkit-animation-duration: 0.5s;
     z-index: 999;
     visibility: visible !important;
@@ -1943,11 +1943,11 @@ p.price ins span.amount,
     border-radius: 5px 0px 0px 5px;
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
     line-height: 1.4;
-    
+
     -webkit-transform: translate(0px, 0px);
     -moz-transform: translate(0px, 0px);
     transform: translate(0px, 0px);
-    
+
     -webkit-transition: -webkit-transform 600ms ease;
     -moz-transition: transform 600ms ease;
     -o-transition: -o-transform 600ms ease;
@@ -1982,11 +1982,11 @@ p.price ins span.amount,
     color: #222;
     line-height: 1.5;
     font-size: 14px;
-    
+
     -webkit-transform: translate(351px, 0px);
     -moz-transform: translate(351px, 0px);
     transform: translate(351px, 0px);
-    
+
     -webkit-transition: -webkit-transform 600ms ease;
     -moz-transition: transform 600ms ease;
     -o-transition: -o-transform 600ms ease;
@@ -2099,12 +2099,12 @@ p.price ins span.amount,
     -moz-filter: blur(2px);
 }
 
-.demo_list li:hover .demo_thumb_hover_wrapper 
+.demo_list li:hover .demo_thumb_hover_wrapper
 {
     opacity: 1;
 }
 
-.demo_thumb_hover_wrapper 
+.demo_thumb_hover_wrapper
 {
     background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
@@ -2199,7 +2199,7 @@ body.admin-bar #option_wrapper .inner
     {
         right: 0;
         left: initial;
-        
+
         -webkit-transform: translate(360px, 0px);
         -ms-transform: translate(360px, 0px);
         transform: translate(360px, 0px);
@@ -2288,24 +2288,24 @@ body.js_nav .mobile_menu_wrapper, html[data-menu=leftmenu] body.js_nav .mobile_m
         opacity: 0;
         z-index: 0;
     }
-    
+
     .header_style_wrapper.scroll_up
     {
         opacity: 1;
     }
-    
-    body.page-template-gallery-archive-fullscreen-php .header_style_wrapper.scroll_down, 
-    body.page-template-gallery-archive-fullscreen-php .header_style_wrapper.scroll_down .top_bar.scroll, 
-    body.page-template-gallery-archive-split-screen-php .header_style_wrapper.scroll_down, 
+
+    body.page-template-gallery-archive-fullscreen-php .header_style_wrapper.scroll_down,
+    body.page-template-gallery-archive-fullscreen-php .header_style_wrapper.scroll_down .top_bar.scroll,
+    body.page-template-gallery-archive-split-screen-php .header_style_wrapper.scroll_down,
     body.page-template-gallery-archive-split-screen-php .header_style_wrapper.scroll_down .top_bar.scroll,
-    body.page-template-portfolio-fullscreen-php .header_style_wrapper.scroll_down, 
-    body.page-template-portfolio-fullscreen-php .header_style_wrapper.scroll_down .top_bar.scroll, 
-    body.page-template-portfolio-fullscreen-split-screen-php .header_style_wrapper.scroll_down, 
+    body.page-template-portfolio-fullscreen-php .header_style_wrapper.scroll_down,
+    body.page-template-portfolio-fullscreen-php .header_style_wrapper.scroll_down .top_bar.scroll,
+    body.page-template-portfolio-fullscreen-split-screen-php .header_style_wrapper.scroll_down,
     body.page-template-portfolio-fullscreen-split-screen-php .header_style_wrapper.scroll_down .top_bar.scroll
     {
         opacity: 1 !important;
     }
-    
+
     body.page-template-gallery-archive-fullscreen-php .header_style_wrapper.scroll_down .top_bar.scroll,
     body.page-template-gallery-archive-split-screen-php .header_style_wrapper.scroll_down .top_bar.scroll,
     body.page-template-portfolio-fullscreen-php .header_style_wrapper.scroll_down .top_bar.scroll,
@@ -2317,7 +2317,7 @@ body.js_nav .mobile_menu_wrapper, html[data-menu=leftmenu] body.js_nav .mobile_m
         -ms-transform: translateY(0px);
         transform: translateY(0px);
     }
-    
+
     body.page-template-gallery-archive-fullscreen-php .header_style_wrapper.nofixed,
     body.page-template-gallery-archive-split-screen-php .header_style_wrapper.nofixed,
     body.page-template-portfolio-fullscreen-php .header_style_wrapper.nofixed,
@@ -2340,27 +2340,27 @@ body.tg_boxed
 
 .woocommerce ul.products li.product.post-143, .woocommerce-page ul.products li.product.post-143
 {
-   display: none; 
+   display: none;
 }
 
 body.page-id-3144 .top_bar
 {
-  border-color: #fff; 
+  border-color: #fff;
 }
 
 body .frame_right
 {
-   z-index: 2; 
+   z-index: 2;
 }
 
 body.page-id-3090 .tour_recently_view
 {
-  margin-top: 0; 
+  margin-top: 0;
 }
 
 .woocommerce ul.products li.product h2, .woocommerce-page ul.products li.product h2
 {
-   font-size: 20px; 
+   font-size: 20px;
 }
 
 #page_content_wrapper .posts.blog li a, .page_content_wrapper .posts.blog li a, #footer ul.sidebar_widget li ul.posts.blog li a
