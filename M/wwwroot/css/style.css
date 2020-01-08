@@ -1356,7 +1356,9 @@ html[data-menu=centeralogo] #logo_right_button {
 #menu_wrapper div .nav li.current-menu-parent ul li.current-menu-item a,
 #menu_wrapper .nav ul li.megamenu ul li ul li a,
 #menu_wrapper div .nav li.megamenu ul li ul li a {
-    color: #000000;
+    color: #111;
+    text-transform: uppercase;
+
 }
 
 #menu_wrapper .nav ul li ul li a:hover,
