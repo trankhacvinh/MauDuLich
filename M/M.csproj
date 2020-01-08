@@ -10,6 +10,7 @@
     <Content Remove="Views\Sanpham\**" />
     <EmbeddedResource Remove="Views\Sanpham\**" />
     <None Remove="Views\Sanpham\**" />
+    <Content Remove="Views\Home\EmptyClassd.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\css\autoAdsMaxLead-widget.min..cs" />

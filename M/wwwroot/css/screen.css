@@ -736,7 +736,6 @@ html[data-style=fullscreen] .top_bar.hasbg, .top_bar.hasbg
 {
 	width: 100%;
 	float: left;
-	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 9;
@@ -778,7 +777,7 @@ body.admin-bar .header_style_wrapper
 
 .top_bar.hasbg
 {
-	background: transparent;
+	background: #fff!important;
 }
 
 html[data-menu=centeralign] body .top_bar.scroll #nav_wrapper
@@ -1434,7 +1433,8 @@ body.js_nav.fade .header_style_wrapper
 #wrapper.transparent .top_bar:not(.scroll) #menu_wrapper div .nav > li > a,
 #wrapper.transparent .top_bar:not(.scroll) #logo_right_button a, #logo_wrapper .social_wrapper ul li a
 {
-	color: #fff !important;
+	color: #111 !important;
+	text-transform: uppercase;
 }
 
 #menu_wrapper .nav li.arrow > a:after, #menu_wrapper div .nav li.arrow > a:after
@@ -3585,6 +3585,8 @@ h2.ppb_title
 .ppb_tour_search_background h2.ppb_title
 {
 	font-size: 50px;
+	    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 .ppb_subtitle
@@ -3999,6 +4001,8 @@ body.single-post .post_img img
 {
 	top: -5px;
     position: relative;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 .fullscreen_share_content #social_share_wrapper ul li
