@@ -346,14 +346,14 @@
 	.post_header.search { width: 80%; }
 	#searchform input[type=text] { width: 70%; }
 
-  	.ppb_fullwidth_button { text-align: center; }
-  	.ppb_fullwidth_button h2.title { float: none; width: 100%; }
-  	.ppb_fullwidth_button .button { float: none; margin-top: 10px; }
-  	.one_half .page_content_wrapper .inner, .one_third .page_content_wrapper .inner, .one_fourth .page_content_wrapper .inner, .one_fifth .page_content_wrapper .inner, .two_third .page_content_wrapper .inner
+	.ppb_fullwidth_button { text-align: center; }
+	.ppb_fullwidth_button h2.title { float: none; width: 100%; }
+	.ppb_fullwidth_button .button { float: none; margin-top: 10px; }
+	.one_half .page_content_wrapper .inner, .one_third .page_content_wrapper .inner, .one_fourth .page_content_wrapper .inner, .one_fifth .page_content_wrapper .inner, .two_third .page_content_wrapper .inner
 	{
-	    max-width: 100%;
-	    width: 100%;
-	    padding: 0;
+		max-width: 100%;
+		width: 100%;
+		padding: 0;
 	}
 	.one_half_bg { padding: 40px !important; }
 
@@ -576,7 +576,7 @@
 
 	.ppb_tour_search_background h2.ppb_title
 	{
-    	font-size: 40px;
+		font-size: 40px;
 	}
 
 	.one
@@ -728,7 +728,10 @@
 	.footer_before_widget .footer_logo.logo_wrapper img { max-height: none; margin-top: 0; margin: auto; }
 
 	.top_bar { width: 100%; padding: 0 30px 20px 30px; }
-	.top_bar { padding-bottom: 34px !important; }
+	/*.top_bar { padding-bottom: 34px !important; }*/
+	.top_bar {
+		padding-bottom: 0 !important;
+	}
 	#top_contact_hours, #top_contact_number { display: none; }
 	.mobile_menu_wrapper { width: 270px; }
 
@@ -916,21 +919,21 @@
   #page_content_wrapper .inner .sidebar_content.full_width#blog_grid_wrapper, .page_content_wrapper .inner .sidebar_content.full_width.blog_grid_wrapper { width: 100%; }
   #page_content_wrapper .inner #blog_grid_wrapper.sidebar_content.left_sidebar { padding-left: 0; }
 
-  	.ppb_fullwidth_button { text-align: center; }
-  	.ppb_fullwidth_button h2.title { float: none; width: 100%; }
-  	.ppb_fullwidth_button .button { float: none; margin-top: 10px; }
+	.ppb_fullwidth_button { text-align: center; }
+	.ppb_fullwidth_button h2.title { float: none; width: 100%; }
+	.ppb_fullwidth_button .button { float: none; margin-top: 10px; }
 
-  	h2.ppb_title { font-size: 24px !important; margin-top: 10px; }
-  	h2.ppb_title .ppb_title_first { font-size: 18px; margin-bottom: 15px; }
-  	#footer_before_widget_text { width: 85%; }
-  	#toTop { right: 10px; }
+	h2.ppb_title { font-size: 24px !important; margin-top: 10px; }
+	h2.ppb_title .ppb_title_first { font-size: 18px; margin-bottom: 15px; }
+	#footer_before_widget_text { width: 85%; }
+	#toTop { right: 10px; }
 
-  	.post.type-post { margin-bottom: 10px; }
-  	#page_caption.hasbg .post_detail, #page_caption.hasbg .post_detail a, #page_caption.hasbg .post_detail a:hover, #page_caption.hasbg .post_detail a:active, .page_tagline { font-size: 11px; }
-  	.post_type_icon i { line-height: 38px; }
+	.post.type-post { margin-bottom: 10px; }
+	#page_caption.hasbg .post_detail, #page_caption.hasbg .post_detail a, #page_caption.hasbg .post_detail a:hover, #page_caption.hasbg .post_detail a:active, .page_tagline { font-size: 11px; }
+	.post_type_icon i { line-height: 38px; }
 
-  	#searchform input[type=text] { width: 71%; }
-  	#page_content_wrapper .inner .sidebar_content #commentform p.comment-form-author, #page_content_wrapper .inner .sidebar_content #commentform p.comment-form-email, #page_content_wrapper .inner .sidebar_content #commentform p.comment-form-url { width: 100%; box-sizing: border-box; }
+	#searchform input[type=text] { width: 71%; }
+	#page_content_wrapper .inner .sidebar_content #commentform p.comment-form-author, #page_content_wrapper .inner .sidebar_content #commentform p.comment-form-email, #page_content_wrapper .inner .sidebar_content #commentform p.comment-form-url { width: 100%; box-sizing: border-box; }
 
   .woocommerce ul.products li.product, .woocommerce-page ul.products li.product { width: 100%; margin: 0 0 30px 0; }
   .woocommerce .related ul.products li.product, .woocommerce .related ul li.product, .woocommerce .upsells.products ul.products li.product, .woocommerce .upsells.products ul li.product, .woocommerce-page .related ul.products li.product, .woocommerce-page .related ul li.product, .woocommerce-page .upsells.products ul.products li.product, .woocommerce-page .upsells.products ul li.product { width: 100% !important; margin: 0 0 30px 0; }
@@ -1375,7 +1378,7 @@
 
 	.grid.gallery.metro .element .grid.gallery4
 	{
-	    min-height: 250px;
+		min-height: 250px;
 	}
 
 	#menu_search .menu_search_wrapper input, #wrapper.transparent .top_bar.scroll #menu_search .menu_search_wrapper input

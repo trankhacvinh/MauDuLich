@@ -88,7 +88,7 @@
     height: 200px;
     border: 1px solid #000;
     bottom: 0;
-    right: 20px;
+    right: 7%;
     transition: 0.3s;
     z-index: 2;
 }
