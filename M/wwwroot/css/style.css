@@ -2376,3 +2376,8 @@ body.page-id-3090 .tour_recently_view
 #logo_wrapper {
     display: flex!important;
 }
+
+.tour_search_wrapper {
+    display: flex;
+    justify-content: center;
+}
